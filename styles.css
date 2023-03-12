@@ -1,0 +1,32 @@
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid #eee;
+}
+
+.todo-item {
+  cursor: pointer;
+  user-select: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.my-auto {
+  margin: auto 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.completed {
+  text-decoration: line-through;
+}
